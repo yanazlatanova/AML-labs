@@ -1,0 +1,16 @@
+[project]
+authors = ["Yana Zlatanova <35622632+yanazlatanova@users.noreply.github.com>"]
+channels = ["conda-forge"]
+name = "AML-labs"
+platforms = ["win-64", "linux-64", "osx-64", "osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+matplotlib = ">=3.10.1,<4"
+numpy = ">=2.2.5,<3"
+cuda-version = ">=12.9,<13"
+pytorch = "*"
+jupyter = ">=1.1.1,<2"
+torchvision = ">=0.21.0,<0.22"
