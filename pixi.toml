@@ -2,7 +2,7 @@
 authors = ["Yana Zlatanova <35622632+yanazlatanova@users.noreply.github.com>"]
 channels = ["conda-forge"]
 name = "AML-labs"
-platforms = ["win-64", "linux-64", "osx-64", "osx-arm64"]
+platforms = ["win-64"]
 version = "0.1.0"
 
 [tasks]
@@ -14,3 +14,7 @@ cuda-version = ">=12.9,<13"
 pytorch = "*"
 jupyter = ">=1.1.1,<2"
 torchvision = ">=0.21.0,<0.22"
+datasets = ">=3.6.0,<4"
+scikit-learn = ">=1.6.1,<2"
+transformers = "==4.51.3"
+accelerate = ">=0.26.0"
