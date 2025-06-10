@@ -113,6 +113,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/jupyterlab_pygments-0.3.0-pyhd8ed1ab_2.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/jupyterlab_server-2.27.3-pyhd8ed1ab_1.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/jupyterlab_widgets-3.0.15-pyhd8ed1ab_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/kagglehub-0.3.8-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/win-64/kiwisolver-1.4.7-py313h1ec8472_0.conda
       - conda: https://conda.anaconda.org/conda-forge/win-64/krb5-1.21.3-hdf4eb48_0.conda
       - conda: https://conda.anaconda.org/conda-forge/win-64/lcms2-2.17-hbcf6048_0.conda
@@ -1663,6 +1664,18 @@ packages:
   license_family: BSD
   size: 189133
   timestamp: 1746450926999
+- conda: https://conda.anaconda.org/conda-forge/noarch/kagglehub-0.3.8-pyhd8ed1ab_0.conda
+  sha256: 4f3831552767661118f2682b9b362e0873b158e3a321143fe08823db7fdce0d5
+  md5: 8ca22b87f8aa35dc24c5ae1aa8c87377
+  depends:
+  - packaging
+  - python >=3.9
+  - requests
+  - tqdm
+  license: Apache-2.0
+  license_family: APACHE
+  size: 44725
+  timestamp: 1739488537776
 - conda: https://conda.anaconda.org/conda-forge/win-64/kiwisolver-1.4.7-py313h1ec8472_0.conda
   sha256: 7ac87046ee34efbd99282f62a4f33214085f999294e3ba7f8a1b5cb3fa00d8e4
   md5: 9239895dcd4116c6042ffe0a4e81706a
