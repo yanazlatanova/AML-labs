@@ -2,3 +2,9 @@
 # pixi environments
 .pixi
 *.egg-info
+
+temp/
+data/captcha
+
+*.parquet
+
